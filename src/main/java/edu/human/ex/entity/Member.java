@@ -13,7 +13,7 @@ import javax.persistence.ManyToOne;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-@ToString  //외래키는 ToString에서 제외 - 주의 서로가 toString 끼리 서로 호출 됨
+@ToString
 public class Member extends BaseEntity {
 
 	@Id
